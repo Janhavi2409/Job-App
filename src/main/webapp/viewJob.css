@@ -33,24 +33,23 @@ li a:hover {
 }
 
 .outer-container {
-  margin-left: 2rem; /* Adjust as needed */
-  margin-right: 2rem; /* Adjust as needed */
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
-  gap: 1rem; /* Adjust gap as needed */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .card {
   border-radius: 0.25rem;
   background-color: rgba(17, 24, 39, 1);
   padding: 1.5rem;
-  box-sizing: border-box; /* Ensure padding and margin are included in the width calculation */
+  box-sizing: border-box;
 }
 
-/* Other CSS rules for card content */
 .postId, .postProfile, .postDesc, .reqExperience, .postTechStack, .list {
   margin-top: 5px;
   font-size: 1.25rem;
